@@ -1,3 +1,4 @@
+[CV](cv/vitae.yml)
 ### Hi there 👋
 
 - 🔭 I’m currently working on a personal [IRC Bot](https://gitlab.com/thomasschuiki/juicybotv2)
