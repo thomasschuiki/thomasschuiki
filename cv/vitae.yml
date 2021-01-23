@@ -1,0 +1,195 @@
+personal:
+  Name: Thomas Schuiki
+  Title: Senior Full Stack Engineer
+  image: ''
+  summary: Elder-Millennial der nach wie vor die Wichtigkeit von Cat-Content versteht.
+  location:
+    address: Hockegasse 12
+    postalCode: '1180'
+    city: Wien
+    countryCode: AT
+    region: Wien
+contact:
+  email: thomas.schuiki@protonmail.com
+  twitter: https://twitter.com/thomas_schuiki
+  linkedin: https://www.linkedin.com/in/thomas-s-6a743967
+  github: https://github.com/thomasschuiki
+  gitlab: https://gitlab.com/thomasschuiki
+
+employment:
+- name: LearnChamp Consulting GmbH
+  location: Wien
+  description: Führender E‑Learning Anbieter für Unternehmen
+  role: Senior Full Stack Engineer
+  url: https://www.learnchamp.com
+  startDate: '2020-08-01'
+  summary: ''
+  details:
+  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
+  - Interne Innovationsentwicklungen (AR/VR, Chatbots, Automatisches Testen,...)
+
+- name: LearnChamp Consulting GmbH
+  location: Wien
+  description: Führender E‑Learning Anbieter für Unternehmen
+  role: IT Lead & Solution Architect
+  url: https://www.learnchamp.com
+  startDate: '2017-06-01'
+  endDate: '2020-08-01'
+  summary: ''
+  details:
+  - Beratung und Konzeption von Lösungsarchitekturen auf Basis kundenspezifischer
+    Anforderungen
+  - Konzeption und Umsetzung einer Hosting-Lösung in AWS
+  - Gesamtbetreuung der internen IT-Infrastruktur (Windows-Server, Linux-Server (Debian),
+    VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
+  - Betreuung der Mitarbeiter im Desktop Support (3rd Level); Entwicklung von Scripts
+    zur Softwareverteilung; Betreuung einer Asset-Management Lösung (Lansweeper);
+    Rollout O365
+  - Konzeption und Umsetzung einer Devops Strategie
+  - Entwicklung von Integrationslösungen zu internen Systemen …
+  - Betreuung des zweiten Standorts in Deutschland
+
+- name: LearnChamp Consulting GmbH
+  location: Wien
+  description: Führender E‑Learning Anbieter für Unternehmen
+  role: Technical Consultant
+  url: https://www.learnchamp.com
+  startDate: '2014-01-01'
+  endDate: '2017-06-01'
+  summary: ''
+  details:
+  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
+
+- name: LearnChamp Consulting GmbH
+  location: Wien
+  description: Führender E‑Learning Anbieter für Unternehmen
+  role: Associate
+  url: https://www.learnchamp.com
+  startDate: '2012-11-01'
+  endDate: '2013-12-01'
+  summary: ''
+  details:
+  - Umsetzung von kundenspezifischen Designs für das LMS Totara
+  - Umsetzung von kundenspezifischen Anpassungen für das LMS Totara
+  - Konfiguration des LMS und laufende Kundenunterstützung
+
+- name: nexxar GmbH
+  location: Wien
+  description: Führender E‑Learning Anbieter für Unternehmen
+  role: Praktikant im Bereich Web-Entwicklung
+  url: https://www.nexxar.com/
+  startDate: '2010'
+  endDate: '2010'
+  summary: ''
+  details:
+  - Umsetzung von kundenspezifischen Designs als digitale Geschäftsberichte
+volunteer:
+- organization: Rotes Kreuz
+  role: Zivildiener
+  url: https://www.roteskreuz.at/oberoesterreich/ich-will-helfen/zivildienst
+  startDate: '2011-01-01'
+  endDate: '2012-01-01'
+  summary: Zivildienst im Rahmen des verpflichtenden Wehrersatzdienstes
+  highlights:
+  - Rettungssanitäter
+  - Rettungsfahrer
+education:
+- institution: Fachhochschule St. Pölten GmbH
+  credential: Dipl.Ing. (Master of Science in Engineering)
+  area: Digitale Medientechnologien - Mobile Internet
+  url: https://www.fhstp.ac.at/
+  startDate: '2010-01-01'
+  endDate: '2012-01-01'
+
+- institution: Raahe School of Business and Engineering
+  credential:   BsC (Bachelor of Science in Engineering)
+  area: Information Technology
+  url: https://www.oamk.fi/english/ects/2007-2008/schools/?page=raahe#technology
+  startDate: '2009-09-01'
+  endDate: '2009-12-21'
+
+- institution:  Fachhochschule St. Pölten GmbH
+  credential:   BsC (Bachelor of Science in Engineering)
+  area:         Medientechnik
+  url:          https://www.fhstp.ac.at/
+  startDate:    '2007-01-01'
+  endDate:      '2010-01-01'
+
+- institution:  HTBLuVA St.Pölten
+  credential:   Matura
+  area:         Elektronik & Technische Informatik
+  url:          https://www.htlstp.ac.at/
+  startDate:    '2001-01-01'
+  endDate:      '2006-01-01'
+
+skills:
+- name: Momentan am meisten in Verwendung
+  level: Master
+  keywords:
+  - Golang
+  - Python
+  - Javascript
+  - Git
+  - Ansible
+  - Terraform
+  - Docker
+  - REST APIs
+  - Debian Linux
+- name: Web Development
+  level: Master
+  keywords:
+  - HTML
+  - CSS
+  - Javascript
+  - PHP
+- name: General Development Skills
+  level: Master
+  keywords:
+  - Golang
+  - Python
+  - Git
+  - E2E Testing mit Cypress
+  - SOAP APIs
+  - C
+  - C++
+  - C#
+  - Java
+  - Ruby
+- name: Infrastructure
+  level: Master
+  keywords:
+  - Ansible
+  - Terraform
+  - Powershell
+  - Bash
+  - MySQL
+  - PostgreSQL
+  - MongoDB
+  - Apache
+  - Nginx
+  - NodeJS
+  - AWS
+- name: IT Administration
+  level: Master
+  keywords:
+  - Atlassian Confluence Administration
+  - Atlassian JIRA Administration
+  - Nextcloud Administration
+  - Gitlab Administration
+  - VMWare Administration
+  - MS Office / O365 Administration
+  - AWS Administration
+  - Softwaredeployment (Lansweeper)
+  - Windows Server (laufender Betrieb)
+languages:
+- language: Deutsch
+  fluency: Muttersprache
+- language: Englisch
+  fluency: sehr gut
+interests: []
+references: []
+projects: []
+meta:
+  version: v1.0.0
+  lastModified: '2017-12-24T15:53:00'
+  theme: elegant
