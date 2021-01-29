@@ -1,7 +1,7 @@
 [CV](cv/vitae.yml)
 ### Hi there 👋
 
-- 🔭 I’m currently working on a personal [IRC Bot](https://gitlab.com/thomasschuiki/juicybotv2)
+- 🔭 I’m currently working on a personal [IRC Bot](https://gitlab.com/thomasschuiki/go-ircbot)
 - 🌱 I’m currently learning Go, Nuxt
 - 💬 Ask me about anything
 - 📫 How to reach me: @thomasschuiki
