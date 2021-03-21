@@ -62,7 +62,8 @@ Employment:
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
-  Description: Führender E‑Learning Anbieter für Unternehmen
+  Description: |
+    In dieser Rolle konnte ich Web-Programmierungen im Rahmen des LMS Totara umsetzen. Dies reichte von der frontend-seitigen Erstellung von *Themes* bis hin zu neuen Plugins und Integrationen mit 3t Systemen.
   Role: Associate
   Url: https://www.learnchamp.com
   StartDate: '2012-11-01'
@@ -74,7 +75,8 @@ Employment:
 
 - Name: nexxar GmbH
   Location: Wien
-  Description: Führender E‑Learning Anbieter für Unternehmen
+  Description: |
+    Meine Aufgaben bestanden darin pixelgenaue Umsetzungen von digitialen Geschäftsberichten zu erstellen. Der Fokus lag hier sehr stark auf Performanz und auf Kompatibilität mit einer großen Anzahl an Browsern / Browserversionen.
   Role: Praktikant im Bereich Web-Entwicklung
   Url: https://www.nexxar.com/
   StartDate: '2010'
