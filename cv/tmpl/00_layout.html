@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- layout.html -->
+<html>
+    <head>
+        {{ block "meta" .}}{{end}}
+        <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        {{ block "navbar" .}} <!-- Navigation -->{{end}}
+        <main role="main">
+            {{block "profile" .}}
+                <!-- Fallback, if "content" is not defined elsewhere -->
+            {{end}}
+            {{block "contact" .}}
+                <!-- Fallback, if "content" is not defined elsewhere -->
+            {{end}}
+            {{block "employment" .}}
+                <!-- Fallback, if "content" is not defined elsewhere -->
+            {{end}}
+            {{block "education" .}}
+                <!-- Fallback, if "content" is not defined elsewhere -->
+            {{end}}
+        </main>
+    </body>
+</html>
