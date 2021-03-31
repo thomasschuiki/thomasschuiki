@@ -1,21 +1,25 @@
 <!-- employment.html -->
 {{define "employment"}}
-<div class="employments">
-    <h1 class="nes-text is-primary">Employment</h1>
-    {{range .Employment}}
-    <div>
-        <div><a href="{{.Url}}">{{.Name}}</a> | {{.StartDate}} - {{.EndDate}}</div>
-        <div>
-            <p>{{.Role}} {{.Description}}</p>
-            <p>
-                <ul>
-                    {{range .Details}}
-                    <li>{{.}}</li>
-                    {{end}}
-                </ul>
-            </p>
-        </div>
-    </div>
-    {{end}}
-</div>
+<section class="employments">
+  <h1>Employment</h1>
+  {{range .Employment}}
+  <article class="employment">
+    <hgroup>
+      <h2>
+        <a href="{{.Url}}">{{.Name}}</a> | {{.StartDate}} - {{if
+        .EndDate}}{{.EndDate}}{{else}}Today{{end}}
+      </h2>
+      <h3>{{.Role}}</h3>
+    </hgroup>
+    {{.Description}}
+    <footer>
+      <ul>
+        {{range .Details}}
+        <li>{{.}}</li>
+        {{end}}
+      </ul>
+    </footer>
+  </article>
+  {{end}}
+</section>
 {{end}}
