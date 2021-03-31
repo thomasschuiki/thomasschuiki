@@ -1,11 +1,17 @@
 <!-- profile.html -->
 {{define "profile"}}
 <section class="profile">
-  <hgroup>
-    <h1>{{ .Personal.Name}}</h1>
-    <h2 class="title">{{ .Personal.Title}} • {{ .Personal.Summary }}</h2>
-  </hgroup>
-
-  <p class="tagline">{{ .Personal.Tagline}}</p>
+    <div class="grid">
+      <div>
+        <hgroup>
+            <h1>{{ .Personal.Name}}</h1>
+            <h2 class="title">
+                {{ .Personal.Title}} • {{ .Personal.Summary }}
+            </h2>
+        </hgroup>
+        <p class="tagline">{{ .Personal.Tagline}}</p>
+      </div>
+      <div id="avatar"></div>
+    </div>
 </section>
 {{end}}

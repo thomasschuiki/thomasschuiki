@@ -1,4 +1,42 @@
 .contact li {
     list-style-type: none;
-    font-size:1.5rem;
+    font-size: 1.5rem;
+}
+/*
+  Profile
+*/
+.profile .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    align-items: stretch;
+}
+
+.profile .grid > div:first-child {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.profile .grid > div:last-child {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url("../img/b.jpg");
+
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+    margin-top:2rem;
 }
