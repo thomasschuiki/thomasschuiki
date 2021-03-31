@@ -4,7 +4,7 @@ Personal:
   image: ''
   Tagline: Elder-Millennial der nach wie vor die Wichtigkeit von Cat-Content versteht.
   Summary: |
-    Senior Software Engineer (Python, Go, Python) • IT Architect
+    Senior Software Engineer • IT Architect
   Location:
     Address: Hockegasse 12
     PostalCode: '1180'
@@ -22,7 +22,8 @@ Contact:
 Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
-  Description: Führender E‑Learning Anbieter für Unternehmen
+  Description: |
+    Ich habe als Senior Full Stack Engineer bei LearnChamp die interne Produktentwicklungen betreut, zu Prozessverbesserungen beigetragen und neue Tools ins Unternehmen gebracht.
   Role: Senior Full Stack Engineer
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
@@ -32,7 +33,8 @@ Employment:
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
-  Description: Führender E‑Learning Anbieter für Unternehmen
+  Description: |
+      Als IT Lead bei LearnChamp übernahm ich die gesamthafte Betreuung unserer Infrastruktur. Dazu gehörten unter anderem die gesamte Hardware Infrastruktur inklusive Ausstattung der Mitarbeiter, sowie die Instandhaltung der virtuellen Serverlandschaft. Zudem war ich während dieser Zeit Führungskraft von zwei Mitarbeitern die mich im Desktop Support und bei der Betreuung unserer Linux-Infrastruktur unterstütz haben. Während dieser Zeit konnte ich mein Wissen in unterschiedlichsten Gebieten ausweiten und vertiefen.
   Role: IT Lead & Solution Architect
   Url: https://www.learnchamp.com
   StartDate: '2017-06-01'
@@ -47,12 +49,14 @@ Employment:
     zur Softwareverteilung; Betreuung einer Asset-Management Lösung (Lansweeper);
     Rollout O365
   - Konzeption und Umsetzung einer Devops Strategie
-  - Entwicklung von Integrationslösungen zu internen Systemen …
+  - Entwicklung von Integrationslösungen zu internen Systemen
   - Betreuung des zweiten Standorts in Deutschland
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
-  Description: Führender E‑Learning Anbieter für Unternehmen
+  Description: |
+    Während meiner Tätigket bei LearnChamp waren Integrationen zwischen unterschiedlichsten (Cloud)-Produkten in Kundenprojekten immer wieder gefragt. Als erfahrener Entwickler übernahm ich diese Aufgaben.
+    Außerdem begann ich hier meine Arbeit in der IT und betreute nach dem ersten Jahr alle Mitarbeiter im Support und unsere Linux-Infrastruktur.
   Role: Technical Consultant
   Url: https://www.learnchamp.com
   StartDate: '2014-01-01'
@@ -91,7 +95,7 @@ Volunteer:
   Role: Zivildiener
   Url: https://www.roteskreuz.at/oberoesterreich/ich-will-helfen/zivildienst
   StartDate: '2011-01-01'
-  EndDate: '2012-01-01'  
+  EndDate: '2012-01-01'
   Details:
   - Rettungssanitäter
   - Rettungsfahrer
