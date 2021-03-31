@@ -1,17 +1,19 @@
 <!-- contact.html -->
 {{define "contact"}}
 <section class="contact">
-    <h1>Contact</h1>
+    <h1>{{ .Headings.Contact }}</h1>
     <ul class="grid">
-      {{range $key, $value := .Contact}} {{if eq $key "email"}}
-      <li>
-        <a href="mailto:{{$value}}"><i class="far fa-envelope"></i> {{$key}}</a>
-      </li>
-      {{else}}
-      <li>
-        <a href="{{$value}}"><i class="fab fa-{{$key}}"></i> {{$key}}</a>
-      </li>
-      {{end}} {{end}}
+        {{range $key, $value := .Contact}} {{if eq $key "email"}}
+        <li>
+            <a href="mailto:{{$value}}"
+                ><i class="far fa-envelope"></i> {{$key}}</a
+            >
+        </li>
+        {{else}}
+        <li>
+            <a href="{{$value}}"><i class="fab fa-{{$key}}"></i> {{$key}}</a>
+        </li>
+        {{end}} {{end}}
     </ul>
 </section>
 {{end}}
