@@ -1,13 +1,17 @@
 <!-- contact.html -->
 {{define "contact"}}
-<div class="contact">
-    <h1 class="nes-text is-primary">Contact</h1>
-    <ul>
-        <li><a href="">Email</a></li>
-        <li><a href="">twitter</a></li>
-        <li><a href="">linkedin</a></li>
-        <li><a href="">github</a></li>
-        <li><a href="">gitlab</a></li>
+<section class="contact">
+    <h1>Contact</h1>
+    <ul class="grid">
+      {{range $key, $value := .Contact}} {{if eq $key "email"}}
+      <li>
+        <a href="mailto:{{$value}}"><i class="far fa-envelope"></i> {{$key}}</a>
+      </li>
+      {{else}}
+      <li>
+        <a href="{{$value}}"><i class="fab fa-{{$key}}"></i> {{$key}}</a>
+      </li>
+      {{end}} {{end}}
     </ul>
-</div>
+</section>
 {{end}}
