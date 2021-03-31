@@ -12,20 +12,22 @@
         <link rel="stylesheet" href="../css/print.css">
     </head>
     <body>
-        {{ block "navbar" .}} <!-- Navigation -->{{end}}
-        <main role="main">
-            {{block "profile" .}}
-                <!-- Fallback, if "content" is not defined elsewhere -->
-            {{end}}
-            {{block "contact" .}}
-                <!-- Fallback, if "content" is not defined elsewhere -->
-            {{end}}
-            {{block "employment" .}}
-                <!-- Fallback, if "content" is not defined elsewhere -->
-            {{end}}
-            {{block "education" .}}
-                <!-- Fallback, if "content" is not defined elsewhere -->
-            {{end}}
-        </main>
+        <div class="container">
+            {{ block "navbar" .}} <!-- Navigation -->{{end}}
+            <main role="main" >
+                {{block "profile" .}}
+                    <!-- Fallback, if "content" is not defined elsewhere -->
+                {{end}}
+                {{block "contact" .}}
+                    <!-- Fallback, if "content" is not defined elsewhere -->
+                {{end}}
+                {{block "employment" .}}
+                    <!-- Fallback, if "content" is not defined elsewhere -->
+                {{end}}
+                {{block "education" .}}
+                    <!-- Fallback, if "content" is not defined elsewhere -->
+                {{end}}
+            </main>
+        </div>
     </body>
 </html>
