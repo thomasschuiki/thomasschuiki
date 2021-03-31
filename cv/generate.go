@@ -26,19 +26,23 @@ func main() {
 }
 
 func run(args []string, stdout io.Writer) error {
-	err := generateHTML()
+	lang := "en"
+	if len(args) > 1 {
+		lang = args[1]
+	}
+	err := generateHTML(lang)
 	if err != nil {
 		return err
 	}
-	err = generatePDF()
+	err = generatePDF(lang)
 	if err != nil {
 		return err
 	}
 	return nil
 }
 
-func generateHTML() error {
-	out, err := os.Create("dist/index.html")
+func generateHTML(lang string) error {
+	out, err := os.Create(fmt.Sprintf("dist/index.%s.html", lang))
 	if err != nil {
 		return err
 	}
@@ -46,7 +50,7 @@ func generateHTML() error {
 
 	data := map[string]interface{}{}
 
-	buf, err := ioutil.ReadFile("vitae.yml")
+	buf, err := ioutil.ReadFile(fmt.Sprintf("vitae.%s.yml", lang))
 	if err != nil {
 		return err
 	}
@@ -66,7 +70,7 @@ func generateHTML() error {
 	return nil
 }
 
-func generatePDF() error {
+func generatePDF(lang string) error {
 	// Create new PDF generator
 	pdfg, err := html2pdf.NewPDFGenerator()
 	if err != nil {
@@ -82,7 +86,7 @@ func generatePDF() error {
 	pdfg.MarginBottom.Set(10)
 	pdfg.MarginLeft.Set(10)
 	// Create a new input page from an URL
-	page := html2pdf.NewPage("dist/index.html")
+	page := html2pdf.NewPage(fmt.Sprintf("dist/index.%s.html", lang))
 	page.Zoom.Set(1)
 
 	// Set options for this page
@@ -101,7 +105,8 @@ func generatePDF() error {
 	}
 
 	// Write buffer contents to file on disk
-	err = pdfg.WriteFile("./dist/DI Thomas Schuiki - CV.pdf")
+
+	err = pdfg.WriteFile(fmt.Sprintf("dist/DI Thomas Schuiki - CV.%s.pdf", lang))
 	if err != nil {
 		log.Fatal(err)
 	}

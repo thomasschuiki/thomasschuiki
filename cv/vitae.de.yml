@@ -1,0 +1,139 @@
+Personal:
+  Name: Thomas Schuiki
+  Title: Senior Full Stack Engineer
+  image: ''
+  Tagline: Elder-Millennial der nach wie vor die Wichtigkeit von Cat-Content versteht.
+  Summary: |
+    Senior Software Engineer • IT Architect
+  Location:
+    Address: Hockegasse 12
+    PostalCode: '1180'
+    City: Wien
+    CountryCode: AT
+    Region: Wien
+
+Contact:
+  email: thomas.schuiki@protonmail.com
+  twitter: https://twitter.com/thomas_schuiki
+  linkedin: https://www.linkedin.com/in/thomas-s-6a743967
+  github: https://github.com/thomasschuiki
+  gitlab: https://gitlab.com/thomasschuiki
+
+Employment:
+- Name: LearnChamp Consulting GmbH
+  Location: Wien
+  Description: |
+    Ich habe als Senior Full Stack Engineer bei LearnChamp die interne Produktentwicklungen betreut, zu Prozessverbesserungen beigetragen und neue Tools ins Unternehmen gebracht.
+  Role: Senior Full Stack Engineer
+  Url: https://www.learnchamp.com
+  StartDate: '2020-08-01'
+  Details:
+  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
+  - Interne Innovationsentwicklungen (AR/VR, Chatbots, Automatisches Testen,...)
+
+- Name: LearnChamp Consulting GmbH
+  Location: Wien
+  Description: |
+      Als IT Lead bei LearnChamp übernahm ich die gesamthafte Betreuung unserer Infrastruktur. Dazu gehörten unter anderem die gesamte Hardware Infrastruktur inklusive Ausstattung der Mitarbeiter, sowie die Instandhaltung der virtuellen Serverlandschaft. Zudem war ich während dieser Zeit Führungskraft von zwei Mitarbeitern die mich im Desktop Support und bei der Betreuung unserer Linux-Infrastruktur unterstütz haben. Während dieser Zeit konnte ich mein Wissen in unterschiedlichsten Gebieten ausweiten und vertiefen.
+  Role: IT Lead & Solution Architect
+  Url: https://www.learnchamp.com
+  StartDate: '2017-06-01'
+  EndDate: '2020-08-01'
+  Details:
+  - Beratung und Konzeption von Lösungsarchitekturen auf Basis kundenspezifischer
+    Anforderungen
+  - Konzeption und Umsetzung einer Hosting-Lösung in AWS
+  - Gesamtbetreuung der internen IT-Infrastruktur (Windows-Server, Linux-Server (Debian),
+    VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
+  - Betreuung der Mitarbeiter im Desktop Support (3rd Level); Entwicklung von Scripts
+    zur Softwareverteilung; Betreuung einer Asset-Management Lösung (Lansweeper);
+    Rollout O365
+  - Konzeption und Umsetzung einer Devops Strategie
+  - Entwicklung von Integrationslösungen zu internen Systemen
+  - Betreuung des zweiten Standorts in Deutschland
+
+- Name: LearnChamp Consulting GmbH
+  Location: Wien
+  Description: |
+    Während meiner Tätigket bei LearnChamp waren Integrationen zwischen unterschiedlichsten (Cloud)-Produkten in Kundenprojekten immer wieder gefragt. Als erfahrener Entwickler übernahm ich diese Aufgaben.
+    Außerdem begann ich hier meine Arbeit in der IT und betreute nach dem ersten Jahr alle Mitarbeiter im Support und unsere Linux-Infrastruktur.
+  Role: Technical Consultant
+  Url: https://www.learnchamp.com
+  StartDate: '2014-01-01'
+  EndDate: '2017-06-01'
+  Details:
+  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
+
+- Name: LearnChamp Consulting GmbH
+  Location: Wien
+  Description: |
+    In dieser Rolle konnte ich Web-Programmierungen im Rahmen des LMS Totara umsetzen. Dies reichte von der frontend-seitigen Erstellung von *Themes* bis hin zu neuen Plugins und Integrationen mit 3t Systemen.
+  Role: Associate
+  Url: https://www.learnchamp.com
+  StartDate: '2012-11-01'
+  EndDate: '2013-12-01'
+  Details:
+  - Umsetzung von kundenspezifischen Designs für das LMS Totara
+  - Umsetzung von kundenspezifischen Anpassungen für das LMS Totara
+  - Konfiguration des LMS und laufende Kundenunterstützung
+
+- Name: nexxar GmbH
+  Location: Wien
+  Description: |
+    Meine Aufgaben bestanden darin pixelgenaue Umsetzungen von digitialen Geschäftsberichten zu erstellen. Der Fokus lag hier sehr stark auf Performanz und auf Kompatibilität mit einer großen Anzahl an Browsern / Browserversionen.
+  Role: Praktikant im Bereich Web-Entwicklung
+  Url: https://www.nexxar.com/
+  StartDate: '2010'
+  EndDate: '2010'
+  Details:
+  - Umsetzung von kundenspezifischen Designs als digitale Geschäftsberichte
+
+Volunteer:
+- Organization: Rotes Kreuz
+  Location: Tulln
+  Description: Zivildienst im Rahmen des verpflichtenden Wehrersatzdienstes
+  Role: Zivildiener
+  Url: https://www.roteskreuz.at/oberoesterreich/ich-will-helfen/zivildienst
+  StartDate: '2011-01-01'
+  EndDate: '2012-01-01'
+  Details:
+  - Rettungssanitäter
+  - Rettungsfahrer
+
+Education:
+- Institution: Fachhochschule St. Pölten GmbH
+  Credential: Dipl.Ing. (Master of Science in Engineering)
+  Area: Digitale Medientechnologien - Mobile Internet
+  Url: https://www.fhstp.ac.at/
+  StartDate: '2010-01-01'
+  EndDate: '2012-01-01'
+
+- Institution: Raahe School of Business and Engineering
+  Credential:   BsC (Bachelor of Science in Engineering)
+  Area: Information Technology
+  Url: https://www.oamk.fi/english/ects/2007-2008/schools/?page=raahe#technology
+  StartDate: '2009-09-01'
+  EndDate: '2009-12-21'
+
+- Institution:  Fachhochschule St. Pölten GmbH
+  Credential:   BsC (Bachelor of Science in Engineering)
+  Area:         Medientechnik
+  Url:          https://www.fhstp.ac.at/
+  StartDate:    '2007-01-01'
+  EndDate:      '2010-01-01'
+
+- Institution:  HTBLuVA St.Pölten
+  Credential:   Matura
+  Area:         Elektronik & Technische Informatik
+  Url:          https://www.htlstp.ac.at/
+  StartDate:    '2001-01-01'
+  EndDate:      '2006-01-01'
+
+Languages:
+- Deutsch (Muttersprache)
+- English (very good)
+
+Headings:
+  Employment: "Anstellungen"
+  Education: "Ausbildung"
+  Contact: "Kontakt"
