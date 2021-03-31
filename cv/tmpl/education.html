@@ -1,14 +1,16 @@
 <!-- education.html -->
 {{define "education"}}
-<div class="education">
-    <h1 class="nes-text is-primary">Education</h1>
-    {{range .Education}}
-    <div>
-        <div><a href="{{.Url}}">{{.Institution}}</a> | {{.StartDate}} - {{.EndDate}}</div>
-        <div>
-            <p>{{.Credential}} {{.Area}}</p>            
-        </div>
-    </div>
-    {{end}}
-</div>
+<section class="education">
+  <h1>Education</h1>
+  {{range .Education}}
+  <article>
+    <hgroup>
+      <h3>
+        <a href="{{.Url}}">{{.Institution}}</a> | {{.StartDate}} - {{.EndDate}}
+      </h3>
+      <h4>{{.Credential}} {{.Area}}</h4>
+    </hgroup>
+  </article>
+  {{end}}
+</section>
 {{end}}
