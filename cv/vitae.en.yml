@@ -2,7 +2,7 @@ Personal:
   Name: Thomas Schuiki
   Title: Senior Full Stack Engineer
   image: ''
-  Tagline: Elder-Millennial der nach wie vor die Wichtigkeit von Cat-Content versteht.
+  Tagline: Elder-Millennial that still understands the importantce of Cat-content.
   Summary: |
     Senior Software Engineer • IT Architect
   Location:
@@ -23,87 +23,84 @@ Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    Ich habe als Senior Full Stack Engineer bei LearnChamp die interne Produktentwicklungen betreut, zu Prozessverbesserungen beigetragen und neue Tools ins Unternehmen gebracht.
+    As a Senior Full Stack Engineer at LearnChamp my responsiblities were technical product development, improvement to processes and introducing new tools into the company.
   Role: Senior Full Stack Engineer
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
   Details:
-  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
-  - Interne Innovationsentwicklungen (AR/VR, Chatbots, Automatisches Testen,...)
+  - Planning and implementation of customerspecific integration solutions
+  - Internal development for r&d projects (AR/VR, chatbots, automatic testing,...)
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-      Als IT Lead bei LearnChamp übernahm ich die gesamthafte Betreuung unserer Infrastruktur. Dazu gehörten unter anderem die gesamte Hardware Infrastruktur inklusive Ausstattung der Mitarbeiter, sowie die Instandhaltung der virtuellen Serverlandschaft. Zudem war ich während dieser Zeit Führungskraft von zwei Mitarbeitern die mich im Desktop Support und bei der Betreuung unserer Linux-Infrastruktur unterstütz haben. Während dieser Zeit konnte ich mein Wissen in unterschiedlichsten Gebieten ausweiten und vertiefen.
+      As an IT Lead at LearnChamp I took over the responsibility for our whole infrastructure. This included the physical hardware for our datacenter and the equipment for our employees. I was also tasked with maintenance and improvement of the virtual server landscape. During this time I was manager of a two person team. One working in desktop support and the other working on our linux infrastructure. I was able to improve and broaden my knowledge on multiple topics.
   Role: IT Lead & Solution Architect
   Url: https://www.learnchamp.com
   StartDate: '2017-06-01'
   EndDate: '2020-08-01'
   Details:
-  - Beratung und Konzeption von Lösungsarchitekturen auf Basis kundenspezifischer
-    Anforderungen
-  - Konzeption und Umsetzung einer Hosting-Lösung in AWS
-  - Gesamtbetreuung der internen IT-Infrastruktur (Windows-Server, Linux-Server (Debian),
-    VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
-  - Betreuung der Mitarbeiter im Desktop Support (3rd Level); Entwicklung von Scripts
-    zur Softwareverteilung; Betreuung einer Asset-Management Lösung (Lansweeper);
-    Rollout O365
-  - Konzeption und Umsetzung einer Devops Strategie
-  - Entwicklung von Integrationslösungen zu internen Systemen
-  - Betreuung des zweiten Standorts in Deutschland
+    - Consulting and conception of solution architectures based on customer-specific requirements
+    - Design and implementation of a hosting solution in AWS
+    - Overall support of the internal IT infrastructure (Windows server, Linux server (Debian), VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
+    - Supervision of desktop support staff (3rd level); development of scripts for software distribution; support of an asset management solution (Lansweeper); Rollout O365
+    - Conception and implementation of a devops strategy
+    - Development of integration solutions to internal systems
+    - Support of the second location in Germany
+
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    Während meiner Tätigket bei LearnChamp waren Integrationen zwischen unterschiedlichsten (Cloud)-Produkten in Kundenprojekten immer wieder gefragt. Als erfahrener Entwickler übernahm ich diese Aufgaben.
-    Außerdem begann ich hier meine Arbeit in der IT und betreute nach dem ersten Jahr alle Mitarbeiter im Support und unsere Linux-Infrastruktur.
+    During my time at LearnChamp, integrations between different (cloud) products in customer projects were always in demand. As an experienced developer, I took on these tasks.
+    I also started working in IT here and after the first year I was in charge of all support staff and our Linux infrastructure.
   Role: Technical Consultant
   Url: https://www.learnchamp.com
   StartDate: '2014-01-01'
   EndDate: '2017-06-01'
   Details:
-  - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
+      - Design and implementation of customer-specific integration solutions
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    In dieser Rolle konnte ich Web-Programmierungen im Rahmen des LMS Totara umsetzen. Dies reichte von der frontend-seitigen Erstellung von *Themes* bis hin zu neuen Plugins und Integrationen mit 3t Systemen.
+    In this role, I was able to implement web programming within the Totara LMS. This ranged from front-end creation of *themes* to new plugins and integrations with third-party systems.
   Role: Associate
   Url: https://www.learnchamp.com
   StartDate: '2012-11-01'
   EndDate: '2013-12-01'
   Details:
-  - Umsetzung von kundenspezifischen Designs für das LMS Totara
-  - Umsetzung von kundenspezifischen Anpassungen für das LMS Totara
-  - Konfiguration des LMS und laufende Kundenunterstützung
+      - Implementation of custom designs for the LMS Totara
+      - Implementation of customizations for the LMS Totara
+      - Configuration of the LMS and ongoing customer support
 
 - Name: nexxar GmbH
   Location: Wien
   Description: |
-    Meine Aufgaben bestanden darin pixelgenaue Umsetzungen von digitialen Geschäftsberichten zu erstellen. Der Fokus lag hier sehr stark auf Performanz und auf Kompatibilität mit einer großen Anzahl an Browsern / Browserversionen.
-  Role: Praktikant im Bereich Web-Entwicklung
+    My tasks consisted of creating pixel-perfect implementations of digital business reports. The focus here was very much on performance and compatibility with a large number of browsers / browser versions.
+  Role: Web development intern
   Url: https://www.nexxar.com/
   StartDate: '2010'
   EndDate: '2010'
   Details:
-  - Umsetzung von kundenspezifischen Designs als digitale Geschäftsberichte
+    - Implementation of customized designs as digital business reports
 
 Volunteer:
-- Organization: Rotes Kreuz
+- Organization: Red Cross
   Location: Tulln
-  Description: Zivildienst im Rahmen des verpflichtenden Wehrersatzdienstes
+  Description: Civilian service within the framework of compulsory alternative military service
   Role: Zivildiener
   Url: https://www.roteskreuz.at/oberoesterreich/ich-will-helfen/zivildienst
   StartDate: '2011-01-01'
   EndDate: '2012-01-01'
   Details:
-  - Rettungssanitäter
-  - Rettungsfahrer
+  - Paramedic
+  - Rescue driver
 
 Education:
-- Institution: Fachhochschule St. Pölten GmbH
+- Institution: St. Pölten University of Applied Sciences
   Credential: Dipl.Ing. (Master of Science in Engineering)
-  Area: Digitale Medientechnologien - Mobile Internet
+  Area: Digital Media Technologies - Mobile Internet
   Url: https://www.fhstp.ac.at/
   StartDate: '2010-01-01'
   EndDate: '2012-01-01'
@@ -117,7 +114,7 @@ Education:
 
 - Institution:  Fachhochschule St. Pölten GmbH
   Credential:   BsC (Bachelor of Science in Engineering)
-  Area:         Medientechnik
+  Area:         Media Technologies
   Url:          https://www.fhstp.ac.at/
   StartDate:    '2007-01-01'
   EndDate:      '2010-01-01'
@@ -130,7 +127,7 @@ Education:
   EndDate:      '2006-01-01'
 
 Languages:
-- Deutsch (Muttersprache)
+- Deutsch (mother tongue)
 - English (very good)
 
 Headings:
