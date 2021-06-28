@@ -1,4 +1,4 @@
-[📜 CV](cv/vitae.yml) [🤹 Skills](cv/skills.yml)
+[📜 CV (de)](cv/vitae.de.yml)/[📜 CV (en)](cv/vitae.en.yml) [🤹 Skills](cv/skills.yml)
 ### Hello there 👋
 
 I am an austrian 🇦🇹 based technology geek and nerd. I am a generalist programmer, infrastructure guy and solution architect.  
