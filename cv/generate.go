@@ -30,7 +30,11 @@ func run(args []string, stdout io.Writer) error {
 	if len(args) > 1 {
 		lang = args[1]
 	}
-	err := generateHTML(lang)
+	err := os.MkdirAll("dist", os.ModePerm)
+	if err != nil {
+		return err
+	}
+	err = generateHTML(lang)
 	if err != nil {
 		return err
 	}
