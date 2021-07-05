@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - main
-defaults:
-  run:
-    working-directory: ./cv
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -24,8 +21,10 @@ jobs:
     
     - name: Install go dependencies
       run: go mod download
+      working-directory: ./cv
     
     - name: Build CV files
+      working-directory: ./cv
       run: | 
         go run generate.go en
         go run generate.go de
