@@ -35,3 +35,4 @@ jobs:
         prerelease: false
         files: |
           ./cv/dist/*.pdf
+          ./cv/dist/*.html
