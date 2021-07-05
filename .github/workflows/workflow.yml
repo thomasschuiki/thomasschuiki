@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
     steps:
+    - name: Install wkhtmltopdf
+      run: |
+        sudo apt-get install -y xfonts-base xfonts-75dpi
+        wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
+        sudo dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
     - uses: actions/checkout@v2
     - name: Setup go
       uses: actions/setup-go@v2
