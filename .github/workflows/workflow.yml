@@ -24,6 +24,9 @@ jobs:
     - name: Build CV files
       run: go run generate.go
       working-directory: cv
+    - name: Build de CV files
+      run: go run generate.go de
+      working-directory: cv
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -31,4 +34,4 @@ jobs:
         title: "Latest CV build"
         prerelease: false
         files: |
-          ./dist/*
+          ./cv/dist/*.pdf
