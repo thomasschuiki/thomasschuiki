@@ -28,13 +28,13 @@ Employment:
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
   Details:
-  - Planning and implementation of customerspecific integration solutions
-  - Internal development for r&d projects (AR/VR, chatbots, automatic testing,...)
+  - Planning and implementation of customer-specific integration solutions
+  - Internal development for R&D projects (AR/VR, chatbots, automatic testing,...)
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-      As an IT Lead at LearnChamp I took over the responsibility for our whole infrastructure. This included the physical hardware for our datacenter and the equipment for our employees. I was also tasked with maintenance and improvement of the virtual server landscape. During this time I was manager of a two person team. One working in desktop support and the other working on our linux infrastructure. I was able to improve and broaden my knowledge on multiple topics.
+      As an IT Lead at LearnChamp I took over the responsibility for our whole infrastructure. This included the physical hardware for our datacenter and the equipment for our employees. I was also tasked with maintenance and improvement of the virtual server landscape. During this time I was managing two employees. One working in desktop support and the other working on our linux infrastructure.
   Role: IT Lead & Solution Architect
   Url: https://www.learnchamp.com
   StartDate: '2017-06-01'
@@ -44,16 +44,15 @@ Employment:
     - Design and implementation of a hosting solution in AWS
     - Overall support of the internal IT infrastructure (Windows server, Linux server (Debian), VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
     - Supervision of desktop support staff (3rd level); development of scripts for software distribution; support of an asset management solution (Lansweeper); Rollout O365
-    - Conception and implementation of a devops strategy
     - Development of integration solutions to internal systems
-    - Support of the second location in Germany
+    - Support of the second office-location in Germany
 
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
     During my time at LearnChamp, integrations between different (cloud) products in customer projects were always in demand. As an experienced developer, I took on these tasks.
-    I also started working in IT here and after the first year I was in charge of all support staff and our Linux infrastructure.
+    I also started working in IT.
   Role: Technical Consultant
   Url: https://www.learnchamp.com
   StartDate: '2014-01-01'
@@ -64,7 +63,7 @@ Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    In this role, I was able to implement web programming within the Totara LMS. This ranged from front-end creation of *themes* to new plugins and integrations with third-party systems.
+    In this role, I was able to implement web programming within the learning management system (LMS) Totara. This ranged from front-end creation of themes to new plugins and integrations with third-party systems.
   Role: Associate
   Url: https://www.learnchamp.com
   StartDate: '2012-11-01'
