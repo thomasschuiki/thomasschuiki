@@ -20,13 +20,13 @@ jobs:
         go-version: '1.16.x'
     - name: Install go dependencies
       run: go mod download
-      working-directory: cv
+      working-directory: ./cv
     - name: Build CV files
       run: go run generate.go
-      working-directory: cv
+      working-directory: ./cv
     - name: Build de CV files
       run: go run generate.go de
-      working-directory: cv
+      working-directory: ./cv
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
