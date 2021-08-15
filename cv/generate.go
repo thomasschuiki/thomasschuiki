@@ -92,6 +92,7 @@ func generatePDF(lang string) error {
 	// Create a new input page from an URL
 	page := html2pdf.NewPage(fmt.Sprintf("dist/index.%s.html", lang))
 	page.Zoom.Set(1)
+    page.UserStyleSheet.Set("css/")
 
 	// Set options for this page
 	page.FooterRight.Set("[page]")
