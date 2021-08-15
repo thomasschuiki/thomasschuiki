@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
     steps:
-    - name: Ensure dist directory
-      run: |
-        mkdir -p ./dist
     - name: Install wkhtmltopdf
       run: |
         sudo apt-get install -y xfonts-base xfonts-75dpi
@@ -32,11 +29,10 @@ jobs:
         go run generate.go en
         go run generate.go de
     - name: html to pdf
-      uses: fifsky/html-to-pdf-action@master
+      uses: markwilson/html2pdf@v1.0
       with:
-        htmlFile: ./dist/index.de.html
-        outputFile: ./dist/resume.pdf
-        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+        htmlPath: './cv/dist/index.de.html'
+        pdfName: './cv/dist/index.de.pdf'
 
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
