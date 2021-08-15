@@ -24,6 +24,13 @@ jobs:
         go run generate.go en
         go run generate.go de
 
+    - name: copy resources to dist folder
+      working-directory: ./cv
+      run: |
+        cp -r ./css ./dist
+        cp -r ./webfonts ./dist
+        cp -r ./img ./dist
+
     - name: html to pdf
       uses: fifsky/html-to-pdf-action@master
       with:
