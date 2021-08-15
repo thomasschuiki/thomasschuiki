@@ -34,8 +34,8 @@ jobs:
     - name: html to pdf
       uses: fifsky/html-to-pdf-action@master
       with:
-        htmlFile: ./cv/dist/index.de.html
-        outputFile: ./cv/dist/resume.pdf
+        htmlFile: "./cv/dist/index.de.html"
+        outputFile: "./cv/dist/DI Thomas Schuiki - CV.de.pdf"
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
     - uses: "marvinpinto/action-automatic-releases@latest"
