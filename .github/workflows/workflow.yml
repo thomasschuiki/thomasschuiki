@@ -34,6 +34,12 @@ jobs:
       run: | 
         go run generate.go en
         go run generate.go de
+    - name: html to pdf
+      uses: fifsky/html-to-pdf-action@master
+      with:
+        htmlFile: ./dist/index.de.html
+        outputFile: ./dist/resume.pdf
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
