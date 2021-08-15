@@ -28,11 +28,13 @@ jobs:
       run: | 
         go run generate.go en
         go run generate.go de
+
     - name: html to pdf
-      uses: markwilson/html2pdf@v1.0
+      uses: fifsky/html-to-pdf-action@master
       with:
-        htmlPath: './cv/dist/index.de.html'
-        pdfName: './cv/dist/index.de.pdf'
+        htmlFile: ./cv/dist/index.de.html
+        outputFile: ./cv/dist/resume.pdf
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
