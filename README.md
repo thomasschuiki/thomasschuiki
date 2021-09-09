@@ -5,7 +5,7 @@ I am an austrian 🇦🇹 based technology geek and nerd. I am a generalist prog
 I like finding efficient ways to solve any technological challenge. 
 
 - 🔭 I’m currently working on a personal [IRC Bot](https://github.com/thomasschuiki/go-ircbot)
-- 🌱 I’m currently learning Go, Nuxt
+- 🌱 I’m currently learning Go, AWS
 - 💬 Ask me about anything
 - 📫 How to reach me: @thomasschuiki
 
