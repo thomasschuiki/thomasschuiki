@@ -1,5 +1,7 @@
 Personal:
   Name: Thomas Schuiki
+  FirstName: Thomas
+  LastName: Schuiki
   Title: Senior Full Stack Engineer
   image: ''
   Tagline: Elder-Millennial that still understands the importantce of Cat-content.
@@ -20,13 +22,28 @@ Contact:
   gitlab: https://gitlab.com/thomasschuiki
 
 Employment:
+- Name: Lywand Software GmbH
+  Location: St.Pölten
+  Description: |
+    As a Senior Full Stack Engineer at Lywand my responsiblities are development of the SaaS product as well as
+      maintenance and improvement of the underlying infrastructure.
+  Role: Senior Full Stack Engineer
+  Url: https://www.lywand.com
+  StartDate: '2021-12-01'
+  EndDate: 'Present'
+  Details:
+  - Development of the SaaS product based on Python, VueJS, MongoDB, Golang
+  - Maintenance and improvement of infrastructure (Kuberenetes on AWS) using Terraform
+
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    As a Senior Full Stack Engineer at LearnChamp my responsiblities were technical product development, improvement to processes and introducing new tools into the company.
+    As a Senior Full Stack Engineer at LearnChamp my responsiblities were technical product development, improvement to
+      processes and introducing new tools into the company.
   Role: Senior Full Stack Engineer
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
+  EndDate: '2021-11-01'
   Details:
   - Planning and implementation of customer-specific integration solutions
   - Internal development for R&D projects (AR/VR, chatbots, automatic testing,...)
@@ -34,7 +51,10 @@ Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-      As an IT Lead at LearnChamp I took over the responsibility for our whole infrastructure. This included the physical hardware for our datacenter and the equipment for our employees. I was also tasked with maintenance and improvement of the virtual server landscape. During this time I was managing two employees. One working in desktop support and the other working on our linux infrastructure.
+      As an IT Lead at LearnChamp I took over the responsibility for our whole infrastructure. This included the
+      physical hardware for our datacenter and the equipment for our employees. I was also tasked with maintenance and
+      improvement of the virtual server landscape. During this time I was managing two employees. One working in desktop
+      support and the other working on our linux infrastructure.
   Role: IT Lead & Solution Architect
   Url: https://www.learnchamp.com
   StartDate: '2017-06-01'
@@ -42,8 +62,10 @@ Employment:
   Details:
     - Consulting and conception of solution architectures based on customer-specific requirements
     - Design and implementation of a hosting solution in AWS
-    - Overall support of the internal IT infrastructure (Windows server, Linux server (Debian), VMWare, Veeam, Atlassian Cloud, Nextcloud on-premise, Gitlab on-premise)
-    - Supervision of desktop support staff (3rd level); development of scripts for software distribution; support of an asset management solution (Lansweeper); Rollout O365
+    - Overall support of the internal IT infrastructure (Windows server, Linux server (Debian), VMWare, Veeam, Atlassian
+        Cloud, Nextcloud on-premise, Gitlab on-premise)
+    - Supervision of desktop support staff (3rd level); development of scripts for software distribution; support of an
+        asset management solution (Lansweeper); Rollout O365
     - Development of integration solutions to internal systems
     - Support of the second office-location in Germany
 
@@ -51,8 +73,8 @@ Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    During my time at LearnChamp, integrations between different (cloud) products in customer projects were always in demand. As an experienced developer, I took on these tasks.
-    I also started working in IT.
+    During my time at LearnChamp, integrations between different (cloud) products in customer projects were always in
+      demand. As an experienced developer, I took on these tasks. I also started working in IT.
   Role: Technical Consultant
   Url: https://www.learnchamp.com
   StartDate: '2014-01-01'
@@ -63,20 +85,21 @@ Employment:
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    In this role, I was able to implement web programming within the learning management system (LMS) Totara. This ranged from front-end creation of themes to new plugins and integrations with third-party systems.
+    In this role, I was able to implement web programming within the learning management system (LMS) Totara. This
+      ranged from front-end creation of themes to new plugins and integrations with third-party systems.
   Role: Associate
   Url: https://www.learnchamp.com
   StartDate: '2012-11-01'
   EndDate: '2013-12-01'
   Details:
-      - Implementation of custom designs for the LMS Totara
-      - Implementation of customizations for the LMS Totara
+      - Implementation of custom designs and customizations for the LMS Totara
       - Configuration of the LMS and ongoing customer support
 
 - Name: nexxar GmbH
   Location: Wien
   Description: |
-    My tasks consisted of creating pixel-perfect implementations of digital business reports. The focus here was very much on performance and compatibility with a large number of browsers / browser versions.
+    My tasks consisted of creating pixel-perfect implementations of digital business reports. The focus here was very
+      much on performance and compatibility with a large number of browsers / browser versions.
   Role: Web development intern
   Url: https://www.nexxar.com/
   StartDate: '2010'
@@ -98,6 +121,7 @@ Volunteer:
 
 Education:
 - Institution: St. Pölten University of Applied Sciences
+  Location: Austria - St.Pölten
   Credential: Dipl.Ing. (Master of Science in Engineering)
   Area: Digital Media Technologies - Mobile Internet
   Url: https://www.fhstp.ac.at/
@@ -105,6 +129,7 @@ Education:
   EndDate: '2012-01-01'
 
 - Institution: Raahe School of Business and Engineering
+  Location: Finland - Raahe
   Credential:   BsC (Bachelor of Science in Engineering)
   Area: Information Technology
   Url: https://www.oamk.fi/english/ects/2007-2008/schools/?page=raahe#technology
@@ -112,6 +137,7 @@ Education:
   EndDate: '2009-12-21'
 
 - Institution:  Fachhochschule St. Pölten GmbH
+  Location: Austria - St.Pölten
   Credential:   BsC (Bachelor of Science in Engineering)
   Area:         Media Technologies
   Url:          https://www.fhstp.ac.at/
@@ -119,6 +145,7 @@ Education:
   EndDate:      '2010-01-01'
 
 - Institution:  HTBLuVA St.Pölten
+  Location: Austria - St.Pölten
   Credential:   Matura
   Area:         Elektronik & Technische Informatik
   Url:          https://www.htlstp.ac.at/
