@@ -8,42 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup go
-      uses: actions/setup-go@v2
-      with:
-        go-version: '1.16.x'
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v3
+        with:
+          cache-dependency-path: requirements.typ
+      # Now Typst is installed and packages will be cached!
+      - run: typst compile cv/cv.typ cv/output/cv.pdf
 
-    - name: Install go dependencies
-      run: go mod download
-      working-directory: ./cv
-    
-    - name: Build CV files
-      working-directory: ./cv
-      run: | 
-        go run generate.go en
-        go run generate.go de
-
-    - name: copy resources to dist folder
-      working-directory: ./cv
-      run: |
-        cp -r ./css ./dist
-        cp -r ./webfonts ./dist
-        cp -r ./img ./dist
-
-    - name: html to pdf
-      uses: fifsky/html-to-pdf-action@master
-      with:
-        htmlFile: "./cv/dist/index.de.html"
-        outputFile: "./cv/dist/DI Thomas Schuiki - CV.de.pdf"
-        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-
-    - uses: "marvinpinto/action-automatic-releases@latest"
-      with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "latest"
-        title: "Latest CV build"
-        prerelease: false
-        files: |
-          ./cv/dist/*.pdf
-          ./cv/dist/*.html
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          title: "Latest CV build"
+          prerelease: false
+          files: |
+            ./cv/output/*.pdf
