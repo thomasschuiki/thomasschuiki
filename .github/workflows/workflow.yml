@@ -19,7 +19,7 @@ jobs:
         uses: typst-community/setup-typst@v3
         id: setup-typst
         with:
-          version: 'latest'
+          cache-dependency-path: cv/cv.typ
 
       - run: typst compile cv/cv.typ
       #- run: typst compile letter.typ --font-path ./src/fonts
@@ -28,5 +28,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: output
-          path: ./*.pdf
+          path: ./cv/*.pdf
           if-no-files-found: error
