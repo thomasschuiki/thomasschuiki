@@ -32,4 +32,4 @@ jobs:
           title: "Latest CV build"
           prerelease: false
           files: |
-            ./cv/output/*.pdf
+            ./cv/*.pdf
