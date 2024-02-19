@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: 'recursive'
 
@@ -24,9 +24,12 @@ jobs:
       - run: typst compile cv/cv.typ
       #- run: typst compile letter.typ --font-path ./src/fonts
 
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+      - name: create release
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          name: output
-          path: ./cv/*.pdf
-          if-no-files-found: error
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          title: "Latest CV build"
+          prerelease: false
+          files: |
+            ./cv/output/*.pdf
