@@ -21,7 +21,7 @@ jobs:
         with:
           version: 'latest'
 
-      - run: typst compile cv.typ
+      - run: typst compile cv/cv.typ
       #- run: typst compile letter.typ --font-path ./src/fonts
 
       - name: Upload Artifacts
