@@ -47,7 +47,7 @@
 /* Layout Setting */
 #let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/avatar.jpg" // Leave blank if profil photo is not needed
+#let profilePhoto = "../img/a.jpg" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 
