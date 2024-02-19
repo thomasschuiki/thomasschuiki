@@ -4,22 +4,29 @@ on:
     branches:
       - main
 jobs:
-  release:
+  build:
+    name: compile-check
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: typst-community/setup-typst@v3
-        with:
-          cache-dependency-path: requirements.typ
-      # Now Typst is installed and packages will be cached!
-      - run: typst compile cv/cv.typ cv/output/cv.pdf
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          title: "Latest CV build"
-          prerelease: false
-          files: |
-            ./cv/output/*.pdf
+          submodules: 'recursive'
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+        id: setup-typst
+        with:
+          version: 'latest'
+
+      - run: typst compile cv.typ
+      #- run: typst compile letter.typ --font-path ./src/fonts
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: ./*.pdf
+          if-no-files-found: error
