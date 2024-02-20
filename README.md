@@ -1,4 +1,6 @@
-[📜 CV (de)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.-.CV.de.pdf) [📜 CV (en)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.-.CV.en.pdf) [🤹 Skills](cv/skills.yml)
+[📜 CV (de)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.-.CV.de.pdf)
+[📜 CV (en)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/cv.pdf)
+[🤹 Skills](cv/skills.yml)
 ### Hello there 👋
 
 I am an austrian 🇦🇹 based technology geek and nerd. I am a generalist programmer, infrastructure guy and solution architect.
