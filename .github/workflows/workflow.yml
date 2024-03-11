@@ -40,4 +40,4 @@ jobs:
           name: "Latest CV build"
           prerelease: false
           files: |
-            ./cv/*.pdf
+            ./*.pdf
