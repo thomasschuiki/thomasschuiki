@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    name: compile-check
+    name: Build CV
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
 
@@ -33,7 +33,7 @@ jobs:
       #- run: typst compile letter.typ --font-path ./src/fonts
 
       - name: create release
-        uses: "softprops/action-gh-release@v1"
+        uses: "softprops/action-gh-release@v2"
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           tag_name: "latest"
