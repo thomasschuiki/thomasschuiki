@@ -1,3 +1,4 @@
+#import "fontawesome.typ": *
 #let lang = sys.inputs.LANG
 #let data = yaml("vitae."+lang+".yml")
 

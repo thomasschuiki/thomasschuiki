@@ -18,7 +18,6 @@ jobs:
       - name: Install Fonts
         uses: fontist/setup-fontist@v2
       - run: fontist install "Roboto"
-      - run: fontist install "Font Awesome"
 
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
