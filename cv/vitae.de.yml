@@ -1,12 +1,14 @@
 Personal:
   Name: Thomas Schuiki
+  FirstName: Thomas
+  LastName: Schuiki
   Title: Senior Full Stack Engineer
   image: ''
   Tagline: Elder-Millennial der nach wie vor die Wichtigkeit von Cat-Content versteht.
   Summary: |
     Senior Software Engineer • IT Architect
   Location:
-    Address: Hockegasse 12
+    Address: Peter-Jordan-Straße 69
     PostalCode: '1180'
     City: Wien
     CountryCode: AT
@@ -20,6 +22,19 @@ Contact:
   gitlab: https://gitlab.com/thomasschuiki
 
 Employment:
+- Name: Lywand Software GmbH
+  Location: St.Pölten
+  Description: |
+    As a Senior Full Stack Engineer at Lywand my responsiblities are development of the SaaS product as well as
+      maintenance and improvement of the underlying infrastructure.
+  Role: Senior Full Stack Engineer
+  Url: https://www.lywand.com
+  StartDate: '2021-12-01'
+  EndDate: 'Present'
+  Details:
+  - Development of the SaaS product based on Python, VueJS, MongoDB, Golang
+  - Maintenance and improvement of infrastructure (Kuberenetes on AWS) using Terraform
+
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
@@ -27,6 +42,7 @@ Employment:
   Role: Senior Full Stack Engineer
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
+  EndDate: '2021-11-01'
   Details:
   - Konzeption und Umsetzung von kundenspezifischen Integrationslösungen
   - Interne Innovationsentwicklungen (AR/VR, Chatbots, Automatisches Testen,...)
@@ -101,6 +117,7 @@ Volunteer:
 
 Education:
 - Institution: Fachhochschule St. Pölten GmbH
+  Location: Österreich - St.Pölten
   Credential: Dipl.Ing. (Master of Science in Engineering)
   Area: Digitale Medientechnologien - Mobile Internet
   Url: https://www.fhstp.ac.at/
@@ -108,6 +125,7 @@ Education:
   EndDate: '2012-01-01'
 
 - Institution: Raahe School of Business and Engineering
+  Location: Finland - Raahe
   Credential:   BsC (Bachelor of Science in Engineering)
   Area: Information Technology
   Url: https://www.oamk.fi/english/ects/2007-2008/schools/?page=raahe#technology
@@ -115,6 +133,7 @@ Education:
   EndDate: '2009-12-21'
 
 - Institution:  Fachhochschule St. Pölten GmbH
+  Location: Österreich - St.Pölten
   Credential:   BsC (Bachelor of Science in Engineering)
   Area:         Medientechnik
   Url:          https://www.fhstp.ac.at/
@@ -122,6 +141,7 @@ Education:
   EndDate:      '2010-01-01'
 
 - Institution:  HTBLuVA St.Pölten
+  Location: Österreich - St.Pölten
   Credential:   Matura
   Area:         Elektronik & Technische Informatik
   Url:          https://www.htlstp.ac.at/

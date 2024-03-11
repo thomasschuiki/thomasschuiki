@@ -1,5 +1,5 @@
-[📜 CV (de)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.-.CV.de.pdf)
-[📜 CV (en)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/cv.pdf)
+[📜 CV (de)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.CV.de.pdf)
+[📜 CV (en)](https://github.com/thomasschuiki/thomasschuiki/releases/download/latest/DI.Thomas.Schuiki.CV.en.pdf)
 [🤹 Skills](cv/skills.yml)
 ### Hello there 👋
 

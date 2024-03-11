@@ -15,13 +15,22 @@ jobs:
         with:
           submodules: 'recursive'
 
+      - name: Install Fonts
+        uses: fontist/setup-fontist@v2
+      - run: fontist install "Roboto"
+      - run: fontist install "Font Awesome"
+
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
         id: setup-typst
+        env:
+          TYPST_FONT_PATHS: "~/.fontist/fonts"
         with:
-          cache-dependency-path: cv/cv.typ
-
-      - run: typst compile cv/cv.typ
+          cache-dependency-path: |
+            cv/en.typ
+            cv/de.typ
+      - run: typst compile --input LANG=en cv/en.typ DI.Thomas.Schuiki.CV.en.pdf
+      - run: typst compile --input LANG=de cv/de.typ DI.Thomas.Schuiki.CV.de.pdf
       #- run: typst compile letter.typ --font-path ./src/fonts
 
       - name: create release

@@ -1,6 +1,5 @@
-// NOTICE: Copy this file to your root folder.
-
-#let data = yaml("vitae.en.yml")
+#let lang = sys.inputs.LANG
+#let data = yaml("vitae."+lang+".yml")
 
 /* Personal Information */
 #let firstName = data.Personal.FirstName
