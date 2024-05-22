@@ -25,21 +25,21 @@ Employment:
 - Name: Lywand Software GmbH
   Location: St.Pölten
   Description: |
-    As a Senior Full Stack Engineer at Lywand my responsiblities are development of the SaaS product as well as
-      maintenance and improvement of the underlying infrastructure.
+    Als Senior Full Stack Engineer bei Lywand liegt meine Verantwortung dabei das SaaS Produkt weiterzuentwickeln.
+    Außerdem kümmere ich mich um die Wartung und Weiterentwicklung der dazugehörigen Infrastruktur.
   Role: Senior Full Stack Engineer
   Url: https://www.lywand.com
   StartDate: '2021-12-01'
   EndDate: 'Present'
   Details:
-  - Development of the SaaS product based on Python, VueJS, MongoDB, Golang
-  - Maintenance and improvement of infrastructure (Kuberenetes on AWS) using Terraform
+  - Entwicklung des SaaS Produkts basierend auf Python, VueJS, MongoDB, Golang
+  - Betreuung und Weiterentwicklung der AWS-Infrastruktur (Kuberenetes) using Terraform
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
   Description: |
-    Ich habe als Senior Full Stack Engineer bei LearnChamp die interne Produktentwicklungen betreut, zu Prozessverbesserungen beigetragen und neue Tools im Unternehmen eingeführt.
-  Role: Senior Full Stack Engineer
+    Ich habe als Individual Contributor bei LearnChamp die interne Produktentwicklungen betreut, zu Prozessverbesserungen beigetragen und neue Tools im Unternehmen eingeführt.
+  Role: Individual Contributor
   Url: https://www.learnchamp.com
   StartDate: '2020-08-01'
   EndDate: '2021-11-01'
