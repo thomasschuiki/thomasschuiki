@@ -26,7 +26,6 @@ jobs:
           cache-dependency-path: |
             cv/en.typ
             cv/de.typ
-      - run: typst fonts
       - run: typst compile --font-path ./cv/fonts --input LANG=en cv/en.typ DI.Thomas.Schuiki.CV.en.pdf
       - run: typst compile --font-path ./cv/fonts --input LANG=de cv/de.typ DI.Thomas.Schuiki.CV.de.pdf
 
