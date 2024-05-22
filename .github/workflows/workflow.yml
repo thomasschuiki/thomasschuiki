@@ -15,15 +15,15 @@ jobs:
         with:
           submodules: 'recursive'
 
-      - name: Install Fonts
-        uses: fontist/setup-fontist@v2
-      - run: fontist install "Roboto"
+      # - name: Install Fonts
+      #   uses: fontist/setup-fontist@v2
+      # - run: fontist install "Roboto"
 
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
         id: setup-typst
         env:
-          TYPST_FONT_PATHS: "~/.fontist/fonts"
+          TYPST_FONT_PATHS: "cv/fonts"
         with:
           cache-dependency-path: |
             cv/en.typ
