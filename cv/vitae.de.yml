@@ -33,7 +33,7 @@ Employment:
   EndDate: 'Present'
   Details:
   - Entwicklung des SaaS Produkts basierend auf Python, VueJS, MongoDB, Golang
-  - Betreuung und Weiterentwicklung der AWS-Infrastruktur (Kuberenetes) using Terraform
+  - Betreuung und Weiterentwicklung des Kubernetes Clusters auf AWS mittels Terraform
 
 - Name: LearnChamp Consulting GmbH
   Location: Wien
