@@ -26,8 +26,8 @@ jobs:
           cache-dependency-path: |
             cv/en.typ
             cv/de.typ
-      - run: typst compile --font-path ./cv/fonts --input LANG=en cv/en.typ DI.Thomas.Schuiki.CV.en.pdf
-      - run: typst compile --font-path ./cv/fonts --input LANG=de cv/de.typ DI.Thomas.Schuiki.CV.de.pdf
+      - run: typst compile --font-path ./cv/fonts --input LANG=en cv/cv.en.typ DI.Thomas.Schuiki.CV.en.pdf
+      - run: typst compile --font-path ./cv/fonts --input LANG=de cv/cv.de.typ DI.Thomas.Schuiki.CV.de.pdf
 
       - name: create release
         uses: "softprops/action-gh-release@v2"

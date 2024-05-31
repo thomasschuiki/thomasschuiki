@@ -1,6 +1,6 @@
 #import "fontawesome.typ": *
 #let lang = sys.inputs.LANG
-#let data = yaml("vitae."+lang+".yml")
+#let data = yaml("data."+lang+".yml")
 
 /* Personal Information */
 #let firstName = data.Personal.FirstName

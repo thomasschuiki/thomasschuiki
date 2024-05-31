@@ -1,7 +1,7 @@
 #import "brilliant-CV/template.typ": *
 #show: layout
 
-#let data = yaml("./vitae.en.yml")
+#let data = yaml("./data.en.yml")
 
 #cvHeader(hasPhoto: false, align: left)
 
